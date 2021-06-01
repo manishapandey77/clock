@@ -1,0 +1,40 @@
+html{
+    background-color: black;
+    text-align: center;
+}
+body{
+   
+    margin: 0;
+      font-size: 2rem;
+      display: flex;
+      flex: 1;
+      min-height: 100vh;
+      align-items: center;
+}
+
+.clock {
+    border: 40px solid white;
+    border-radius: 50%;
+    height: 50vh;
+    width: 30%;
+ 
+    margin: 50px auto;
+    position: relative;
+
+}
+
+
+
+.hand {
+    width: 50%;
+    height: 3px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0, 3, 0.58, 1);
+  
+
+}
